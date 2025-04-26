@@ -71,4 +71,22 @@ python main.py complete <task_id>
 python main.py delete <task_id>
 ```
 
+## 📝 Examples
+
+### Add a task:
+```bash
+# Add a regular task
+python main.py add "Buy groceries"
+```
+
+```bash
+# Add a high priority task
+python main.py add "Finish project report" -p high
+```
+
+```bash
+# Add a task with a due date
+python main.py add "Pay electricity bill" -d 2023-09-30
+```
+
 
