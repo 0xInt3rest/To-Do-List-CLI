@@ -38,5 +38,37 @@ python main.py <command> [options]
 - `complete`: Mark a task as completed
 - `delete`: Delete a task
 
+## 📋 Command Options
+
+### Add a task:
+```bash
+python main.py add "Task title" [options]
+```
+
+#### Options:
+
+- `-p, --priority`: Task priority (high, medium, low)
+- `-d, --due`: Due date (YYYY-MM-DD)
+
+### List tasks:
+```bash
+python main.py list [options]
+```
+
+#### Options:
+
+- `-a, --all`: Show all tasks including completed
+- `-p, --priority`: Filter by priority (high, medium, low)
+- `-s, --soon`: Show tasks due within a week
+
+### Complete a task:
+```bash
+python main.py complete <task_id>
+```
+
+### Delete a task:
+```bash
+python main.py delete <task_id>
+```
 
 
