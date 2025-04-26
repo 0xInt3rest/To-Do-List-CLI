@@ -25,3 +25,18 @@ cd todo-cli
 chmod +x main.py
 ```
 
+## 🔍 Usage
+
+```bash
+python main.py <command> [options]
+```
+
+## ⚙️ Commands
+
+- `add`: Add a new task
+- `list`: List tasks
+- `complete`: Mark a task as completed
+- `delete`: Delete a task
+
+
+
