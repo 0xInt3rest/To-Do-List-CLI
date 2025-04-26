@@ -89,4 +89,35 @@ python main.py add "Finish project report" -p high
 python main.py add "Pay electricity bill" -d 2023-09-30
 ```
 
+###  tasks:
+```bash
+# List all pending tasks
+python main.py list
+```
+
+```bash
+# List all tasks including completed ones
+python main.py list -a
+```
+
+```bash
+# List only high priority tasks
+python main.py list -p high
+```
+
+```bash
+# List tasks due within a week
+python main.py list -s
+```
+
+### Complete and delete tasks:
+```bash
+# Mark task #2 as completed
+python main.py complete 2
+```
+
+```bash
+# Delete task #3
+python main.py delete 3
+```
 
