@@ -16,7 +16,7 @@ A simple command-line to-do list application to manage your tasks efficiently.
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/todo-cli.git
+git clone https://github.com/0xInt3rest/todo-cli.git
 cd todo-cli
 ```
 
@@ -89,7 +89,7 @@ python main.py add "Finish project report" -p high
 python main.py add "Pay electricity bill" -d 2023-09-30
 ```
 
-###  tasks:
+### List tasks:
 ```bash
 # List all pending tasks
 python main.py list
@@ -121,3 +121,6 @@ python main.py complete 2
 python main.py delete 3
 ```
 
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
